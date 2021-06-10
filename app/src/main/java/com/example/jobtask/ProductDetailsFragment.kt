@@ -28,8 +28,7 @@ class ProductDetailsFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
       
-        MainActivity.binding.navView.visibility=View.INVISIBLE
-
+        MainActivity.binding.navView.visibility=View.GONE
         binding.productNameTxt.setText(ProductAdapter.name)
         binding.rentTxt.setText(ProductAdapter.price)
         Glide.with(this).load(ProductAdapter.image).placeholder(R.drawable.bed_img).into(binding.productImg)

@@ -20,10 +20,9 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 class MainFragment : Fragment() {
     lateinit var viewModel: CategoryViewModel
      var _binding:FragmentMainBinding? = null
-     var _binding1:ActivityMainBinding? = null
     var navController : NavController?=null
     private val binding get() = _binding!!
-    private val binding2 get() = _binding1!!
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -37,7 +36,7 @@ class MainFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
+        MainActivity.binding.navView.visibility=View.VISIBLE
         navController= Navigation.findNavController(view)
 
         binding.categoriesRecycler.layoutManager= GridLayoutManager(activity,3)
