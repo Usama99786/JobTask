@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "237442692640",
+    "project_id": "jobtask-ac923",
+    "storage_bucket": "jobtask-ac923.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237442692640:android:149b8f8256ed9c71c12e45",
+        "android_client_info": {
+          "package_name": "com.example.jobtask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "237442692640-om8d8ju3sjcs0a898rv20cm8elm0ivj6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-9i0Bg7mGEk4E_dQsyHnwfyMcdl5Ipkc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "237442692640-om8d8ju3sjcs0a898rv20cm8elm0ivj6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
